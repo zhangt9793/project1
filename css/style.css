@@ -1,0 +1,242 @@
+﻿*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #000;
+    font-size: 14px;
+    font-family: "black"; 
+}
+img
+{
+    border: 0;
+}
+a
+{ 
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover
+{ 
+    color: #0a3788;
+    text-decoration: blink;
+}
+.clr
+{
+    clear: both;
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+.container
+{
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.left{ float:left;}
+.right{ float:right;}
+.logo{ text-align:center;}
+.logo IMG{ width:60%; }
+.top{ padding-top:50PX;}
+.w50{ width:50%;}
+.login { margin-top:20px;}
+.login a.btn{ display:inline-block; padding:5px 20px ; border:1px solid #000; margin-left:10px;}
+.search a.btn{ background:#2371ff; color:#fff; margin-left:-5px; margin-top:8px; }
+.search{ margin-top:10px; border:1px solid #fff;}
+.search input{ width:300px; height:29px; padding-left:20px;}
+.nav ul{ list-style:none;}
+.nav ul li{ width:25%; float:left; text-align:center;}
+.nav { margin-top:30px;}
+.nav ul li a{ font-weight:bold;}
+.banner img{ height:500px;}
+.banner{ margin-top:20px;}
+.foot .container .bg{ background:#888686; padding:20px 20px 50px;}
+.foot { margin-top:20px;}
+
+.content{ margin-top:20px;}
+.w20{ width:20%;}.w80{ width:80%; position:relative;}
+.leibie{ padding-top:100px;}
+.leibie a.btn{ display:block; padding:5px 5px ; border:1px solid #000; margin-left:10px; width:130px; margin-bottom:10px;}
+.leibie a{ display:block; margin-left:10px; }
+.mb{ margin-bottom:50px;}
+.i1{ position:absolute; width:300px; left:100px; top:20px;}
+.i2{ width:600px;}
+.you{ text-align:center; padding-top:200px;}
+.con1 p{ width:80%; margin:0 auto; font-size:20px;  line-height:30px; margin-bottom:40px;}
+.con1 h1{ text-align:center;}
+.con1 h1.contact{ text-align:left;padding-left:120px; margin-bottom:20px; }
+.con1 .d1{ margin-bottom: 10px;}
+.con1 ul{ list-style:none; padding-top:20px;}
+.con1 ul li{ width:50%; float:left; text-align:center;}
+.con1 ul li img{ width:50%; height:250px;}
+.con1 h2{ padding-left:120px; margin-bottom:20px;}
+.denglu {
+    width: 150px;
+    background: #6098ff; 
+    outline: none;
+    color: #fff;
+    font-size: 35px;
+    margin-top: 40px;
+    float:right;
+    margin-right:150px;
+}
+textarea{ height:300px; width:80%; margin: 0 auto; display:block;}
+.mtb{ margin:100px 0;}
+.leibie ul{ list-style:none;}
+
+.you .leibie{ display:none;}
+
+.block{ display:none;}
+span.menu {
+    display: none; 
+    
+}
+span.menu img{ width:50px;}
+
+
+.none1{ display:none;}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1199px) 
+{
+    .container
+    {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media all and (max-width: 991px) {}
+
+@media all and (max-width: 768px) 
+{
+    
+    ul.nav {
+    padding: 0;
+    margin: 0em;
+    z-index: 9999999999999999999999; 
+    width: 100%;
+    left: 0;
+}
+ul.nav li {
+    display: block;
+    text-align: center;
+    background: #fff;
+    margin: 0;
+    float: none;
+}
+ul.nav li {
+    padding: 2% 4%;
+    border:1px solid #000;
+}
+    .none{ display:none;}
+    .block{ display:block;}
+    .i1{ position:absolute; width:100%; left:0px; top:20px;}
+    .nav ul li a 
+    {
+        font-size:12PX;
+}
+.leibie1{ display:none;}
+
+
+.you img{ width:100%;}
+
+
+.you 
+{
+    
+    padding-top: 20px;
+}
+
+.con1 h2 {
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.con1 ul li img {
+    width: 90%;
+    height: 200px;
+}
+
+.con1 p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.con1 h1.contact {
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.mtb{ margin:20px 0;}
+
+.denglu {
+    width: 100px;
+    background: #6098ff;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    float: right;
+    margin-right: 40px;
+}
+.leibie{ float:none; width:100%;}
+.leibie ul li{ width:24%; float:left;}
+.leibie a.btn {
+    display: block; 
+    border: 1px solid #000;
+    margin-left: 0px;
+    width: 90%;
+    margin-bottom: 10px;
+    font-size:12px;
+}
+.you{ width:100%;}
+.you .leibie{ display:block; margin-top:400px; width:100%;}
+.leibie a{ font-size:12px;}
+.banner img {
+    height: 300px;
+}
+.foot {
+    margin-top: 100px;
+}
+.con1 h1 {
+    font-size:14px;
+}
+
+span.menu {
+    display: block;
+    text-align: right;
+    padding: 1px 30px 0px 0px;
+    cursor: pointer;
+    color: #E74C3C;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+}
+}
+
+@media all and (max-width: 575px) {}
