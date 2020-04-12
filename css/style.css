@@ -10,7 +10,8 @@ body
     width: 100%;
     color: #000;
     font-size: 14px;
-    font-family: "black"; 
+    font-family: sans-serif;
+    background:Lightpink; 
 }
 img
 {
@@ -34,6 +35,13 @@ a:hover
     margin: 0;
     padding: 0;
     background: none;
+} 
+ul:after 
+{
+    display:block; 
+    height:0px; 
+    content:'\20';
+    clear:both;
 }
 .container
 {
@@ -52,7 +60,7 @@ a:hover
 .login { margin-top:20px;}
 .login a.btn{ display:inline-block; padding:5px 20px ; border:1px solid #000; margin-left:10px;}
 .search a.btn{ background:#2371ff; color:#fff; margin-left:-5px; margin-top:8px; }
-.search{ margin-top:10px; border:1px solid #fff;}
+.search{ margin-top:10px; }
 .search input{ width:300px; height:29px; padding-left:20px;}
 .nav ul{ list-style:none;}
 .nav ul li{ width:25%; float:left; text-align:center;}
@@ -60,7 +68,7 @@ a:hover
 .nav ul li a{ font-weight:bold;}
 .banner img{ height:500px;}
 .banner{ margin-top:20px;}
-.foot .container .bg{ background:#888686; padding:20px 20px 50px;}
+.foot .container .bg{ background:#f3687d; padding:20px 20px 50px;}
 .foot { margin-top:20px;}
 
 .content{ margin-top:20px;}
@@ -70,8 +78,8 @@ a:hover
 .leibie a{ display:block; margin-left:10px; }
 .mb{ margin-bottom:50px;}
 .i1{ position:absolute; width:300px; left:100px; top:20px;}
-.i2{ width:600px;}
-.you{ text-align:center; padding-top:200px;}
+.i2{ width:100%;}
+.you{ text-align:center; padding-top:150px;}
 .con1 p{ width:80%; margin:0 auto; font-size:20px;  line-height:30px; margin-bottom:40px;}
 .con1 h1{ text-align:center;}
 .con1 h1.contact{ text-align:left;padding-left:120px; margin-bottom:20px; }

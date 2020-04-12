@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html >
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -11,12 +11,7 @@
         <div class=" container ">
             <div class=" logo left w50">
                 <img src="images/japan-tour.png" />
-            </div>
-             <span class=" menu">
-                <img src="images/top.png" alt="">
-            </span>
-            <!--<div class=" clr">
-            </div>-->
+            </div> 
             <ul class="nav none1 ">
                 <li><a href="#">Select Language</a></li>
                 <li><a href="#">Login</a></li>
@@ -27,10 +22,10 @@
                 <li><a href="#">Feedback</a></li>
             </ul>
             <div class=" login left w50 none">
-                <a class="btn" href="#">login</a><a class="btn" href="#">Translation</a>
+                <a class="btn" href="#">login</a><a class="btn" href="https://translate.google.com/" target="_blank">Translation</a>
                 <div class=" search">
                     <input placeholder="Search for tour" />
-                    <a class="btn" href="#">GO</a>
+                    <a class="btn" href="search.html">GO</a>
                 </div>
             </div>
             <div class=" clr">
@@ -41,11 +36,9 @@
         <div class=" container ">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="infor.html">City information</a></li>
-                <li><a href="tourb.html">Tour booking</a></li>
+                <li><a href="information.html">City information</a></li>
+                <li><a href="tourbooking.html">Tour Booking</a></li>
                 <li><a href="contact.html">Contact us</a></li>
-                <div class=" clr">
-                </div>
             </ul>
         </div>
     </div>
@@ -65,9 +58,7 @@
                             class="mb">Saitama</a></li>
                 </ul>
             </div>
-            <div class=" left w80 you">
-                <img src="images/2.jpg" class="i1 block" />
-                <img src="images/1.jpg" class="i1 none " />
+            <div class=" left w80 you" style=" padding-top:200px;">
                 <div class=" left w20 leibie">
                     <ul>
                         <li><a class=" btn" href="#">HOKKAIDO</a> <a href="#" class="mb">Sapporo</a></li>
@@ -117,9 +108,10 @@
                     Ahout us
                 </h2>
                 <p>
+                    Made by Tianyi Zhang
+                </p>
+                <p>
                     Japan tour ® 2020
-                    <br>Thank you for your visiting
-                    <br>Made by Tianyi Zhang
                 </p>
                 <div class=" clr">
                 </div>
@@ -127,13 +119,6 @@
             <div class=" clr">
             </div>
         </div>
-    </div>
-    <script src="js/jquery.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        $("span.menu").click(function () {
-            $("ul.nav").slideToggle(200, function () {
-            });
-        });
-    </script>
+    </div> 
 </body>
 </html>
