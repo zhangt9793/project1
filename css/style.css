@@ -41,7 +41,7 @@ ul:after
     display:block; 
     height:0px; 
     content:'\20';
-    clear:both;
+    clear:both; 
 }
 .container
 {
